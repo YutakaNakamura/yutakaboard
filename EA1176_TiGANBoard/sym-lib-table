@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name DF40C-100DS-0.4V)(type Legacy)(uri ${KIPRJMOD}/symbol/DF40C-100DS-0.4V.lib)(options "")(descr ""))
+  (lib (name DF40C-40DS-0.4V)(type Legacy)(uri ${KIPRJMOD}/symbol/DF40C-40DS-0.4V.lib)(options "")(descr ""))
+  (lib (name iMXRT1176uCOM)(type Legacy)(uri ${KIPRJMOD}/symbol/iMXRT1176uCOM.lib)(options "")(descr ""))
+  (lib (name BOOSTXL_3PhGaNInv)(type Legacy)(uri ${KIPRJMOD}/symbol/BOOSTXL_3PhGaNInv.lib)(options "")(descr ""))
+  (lib (name L829-1J1T-43)(type Legacy)(uri ${KIPRJMOD}/symbol/L829-1J1T-43.lib)(options "")(descr ""))
+)

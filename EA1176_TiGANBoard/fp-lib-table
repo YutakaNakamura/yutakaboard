@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name DF40C-100DS-0.4V)(type KiCad)(uri ${KIPRJMOD}/footprint/DF40C-100DS-0.4V.pretty)(options "")(descr ""))
+  (lib (name DF40C-40DS-0.4V)(type KiCad)(uri ${KIPRJMOD}/footprint/DF40C-40DS-0.4V.pretty)(options "")(descr ""))
+  (lib (name iMXRT1176uCOM)(type KiCad)(uri ${KIPRJMOD}/footprint/iMXRT1176uCOM.pretty)(options "")(descr ""))
+  (lib (name BOOSTXL_3PhGaNInv)(type KiCad)(uri ${KIPRJMOD}/footprint/BOOSTXL_3PhGaNInv.pretty)(options "")(descr ""))
+  (lib (name L829-1J1T-43)(type KiCad)(uri ${KIPRJMOD}/footprint/L829-1J1T-43.pretty)(options "")(descr ""))
+)
