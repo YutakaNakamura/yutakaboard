@@ -746,75 +746,57 @@ ADC1_B5
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J4
 U 1 1 6140423A
-P 10400 1500
-F 0 "J4" H 9957 1546 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 9957 1455 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 10400 1500 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 10050 250 50  0001 C CNN
-	1    10400 1500
+P 8950 1400
+F 0 "J4" H 8600 800 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 9150 650 50  0000 R CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" H 8950 1400 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 8600 150 50  0001 C CNN
+	1    8950 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7500 5000 8000 5000
 Text Label 8000 5000 2    50   ~ 0
 JTAG_VCC
-Text Label 11500 850  2    50   ~ 0
+Text Label 10050 750  2    50   ~ 0
 JTAG_VCC
 Wire Wire Line
-	10300 2100 10400 2100
-Connection ~ 10400 2100
-Text Label 11500 2100 2    50   ~ 0
+	8850 2000 8950 2000
+Connection ~ 8950 2000
+Text Label 10500 2000 2    50   ~ 0
 GND
 Wire Wire Line
-	10900 1400 11500 1400
-Wire Wire Line
-	10900 1500 11500 1500
-Wire Wire Line
-	10900 1600 11500 1600
-Wire Wire Line
-	10900 1700 11500 1700
-Wire Wire Line
-	10900 1200 11500 1200
+	9450 1100 9500 1100
 Wire Wire Line
 	7500 5200 8000 5200
 Text Label 8000 5200 2    50   ~ 0
-JTAG_TCK
-Text Label 11500 1400 2    50   ~ 0
 JTAG_TCK
 Wire Wire Line
 	7500 5300 8000 5300
 Text Label 8000 5300 2    50   ~ 0
 JTAG_TMS
-Text Label 11500 1500 2    50   ~ 0
-JTAG_TMS
 Wire Wire Line
 	7500 5400 8000 5400
 Text Label 8000 5400 2    50   ~ 0
-JTAG_TDI
-Text Label 11500 1700 2    50   ~ 0
 JTAG_TDI
 Wire Wire Line
 	7500 5500 8000 5500
 Text Label 8000 5500 2    50   ~ 0
 JTAG_TDO
-Text Label 11500 1600 2    50   ~ 0
-JTAG_TDO
 Wire Wire Line
 	7500 5600 8000 5600
 Text Label 8000 5600 2    50   ~ 0
-JTAG_TRST
-Text Label 11500 1200 2    50   ~ 0
 JTAG_TRST
 Wire Wire Line
 	7500 5700 8000 5700
 Text Label 8000 5700 2    50   ~ 0
 JTAG_MOD
 Wire Wire Line
-	10400 2100 11500 2100
+	8950 2000 9450 2000
 Wire Wire Line
-	10400 850  10800 850 
+	8950 750  9350 750 
 Wire Wire Line
-	10400 850  10400 900 
+	8950 750  8950 800 
 NoConn ~ 1500 2600
 NoConn ~ 1500 2700
 NoConn ~ 1500 2800
@@ -838,9 +820,6 @@ NoConn ~ 1500 4900
 NoConn ~ 1500 5100
 NoConn ~ 1500 5200
 NoConn ~ 1500 5300
-NoConn ~ 1500 5400
-NoConn ~ 1500 5600
-NoConn ~ 1500 5700
 NoConn ~ 1500 5800
 NoConn ~ 1500 5900
 NoConn ~ 1500 7000
@@ -918,7 +897,6 @@ NoConn ~ 7500 4900
 NoConn ~ 7500 4800
 NoConn ~ 7500 4700
 NoConn ~ 7500 4600
-NoConn ~ 7500 4500
 NoConn ~ 7500 4400
 NoConn ~ 7500 4300
 NoConn ~ 7500 4000
@@ -928,7 +906,6 @@ NoConn ~ 7500 3600
 NoConn ~ 7500 3500
 NoConn ~ 7500 3400
 NoConn ~ 7500 3300
-NoConn ~ 7500 3000
 NoConn ~ 7500 2900
 NoConn ~ 7500 2600
 NoConn ~ 7500 2500
@@ -972,22 +949,21 @@ NoConn ~ 13950 4200
 NoConn ~ 13950 4300
 NoConn ~ 13950 4600
 NoConn ~ 13950 4800
-NoConn ~ 8000 5700
 NoConn ~ 3500 3500
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 61CDEEF0
-P 10800 850
-F 0 "#FLG0101" H 10800 925 50  0001 C CNN
-F 1 "PWR_FLAG" H 10800 1023 50  0000 C CNN
-F 2 "" H 10800 850 50  0001 C CNN
-F 3 "~" H 10800 850 50  0001 C CNN
-	1    10800 850 
+P 9350 750
+F 0 "#FLG0101" H 9350 825 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 923 50  0000 C CNN
+F 2 "" H 9350 750 50  0001 C CNN
+F 3 "~" H 9350 750 50  0001 C CNN
+	1    9350 750 
 	1    0    0    -1  
 $EndComp
-Connection ~ 10800 850 
+Connection ~ 9350 750 
 Wire Wire Line
-	10800 850  11500 850 
+	9350 750  9500 750 
 $Comp
 L L829-1J1T-43:L829-1J1T-43 J2
 U 1 1 61CF94AC
@@ -1005,21 +981,6 @@ F 7 "Manufacturer Recommendations" H 11500 3700 50  0001 L BNN "STANDARD"
 $EndComp
 Wire Wire Line
 	11000 5000 10750 5000
-Text Label 1500 10000 2    50   ~ 0
-GND
-Wire Wire Line
-	1500 10000 1500 10200
-$Comp
-L power:GND #PWR01
-U 1 1 61DBE98B
-P 1500 10200
-F 0 "#PWR01" H 1500 9950 50  0001 C CNN
-F 1 "GND" H 1505 10027 50  0000 C CNN
-F 2 "" H 1500 10200 50  0001 C CNN
-F 3 "" H 1500 10200 50  0001 C CNN
-	1    1500 10200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 61DBF4E2
@@ -1224,18 +1185,6 @@ Wire Wire Line
 	5500 5300 5000 5300
 Text Label 5000 5300 0    50   ~ 0
 ETH1_TRXN0
-Connection ~ 7500 4100
-$Comp
-L iMXRT1176uCOM:iMXRT1176uCOM U1
-U 2 1 60EBFFB9
-P 6500 3450
-F 0 "U1" H 6500 4765 50  0000 C CNN
-F 1 "iMXRT1176uCOM" H 6500 4674 50  0000 C CNN
-F 2 "iMXRT1176uCOM:iMXRT1176uCOM" H 6500 2950 50  0001 C CNN
-F 3 "" H 6500 2950 50  0001 C CNN
-	2    6500 3450
-	1    0    0    -1  
-$EndComp
 Text Label 5000 4900 0    50   ~ 0
 ETH1_TRXP1
 Wire Wire Line
@@ -1272,4 +1221,339 @@ Text Label 4900 4700 0    50   ~ 0
 ETH1_LED_ACT
 Wire Wire Line
 	4900 4700 5500 4700
+NoConn ~ 7500 4500
+Text HLabel 15000 4350 2    50   BiDi ~ 0
+CAN1_TX
+Text HLabel 15000 4450 2    50   BiDi ~ 0
+CAN1_RX
+Text HLabel 15000 4250 2    50   BiDi ~ 0
+CAN1_EXT_TICK
+Text Label 14350 4250 0    50   ~ 0
+GPIO_DISP_B2_11
+Wire Wire Line
+	14350 4250 15000 4250
+Wire Wire Line
+	14350 4350 15000 4350
+Text Label 14350 4350 0    50   ~ 0
+GPIO_DISP_B2_12
+Text Label 14350 4450 0    50   ~ 0
+GPIO_DISP_B2_13
+Wire Wire Line
+	14350 4450 15000 4450
+Text Label 850  5400 0    50   ~ 0
+GPIO_DISP_B2_11
+Wire Wire Line
+	850  5400 1500 5400
+Wire Wire Line
+	1500 5600 850  5600
+Wire Wire Line
+	1500 5700 850  5700
+Text Label 850  5600 0    50   ~ 0
+GPIO_DISP_B2_12
+Text Label 850  5700 0    50   ~ 0
+GPIO_DISP_B2_13
+Text Label 8100 3000 2    50   ~ 0
+GPIO_SD_B2_02
+Connection ~ 7500 4100
+$Comp
+L iMXRT1176uCOM:iMXRT1176uCOM U1
+U 2 1 60EBFFB9
+P 6500 3450
+F 0 "U1" H 6500 4765 50  0000 C CNN
+F 1 "iMXRT1176uCOM" H 6500 4674 50  0000 C CNN
+F 2 "iMXRT1176uCOM:iMXRT1176uCOM" H 6500 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	2    6500 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3000 8100 3000
+NoConn ~ 850  5400
+Text Label 12700 650  3    50   ~ 0
+GND
+$Comp
+L power:GND #PWR015
+U 1 1 60A57692
+P 12700 1200
+F 0 "#PWR015" H 12700 950 50  0001 C CNN
+F 1 "GND" H 12705 1027 50  0000 C CNN
+F 2 "" H 12700 1200 50  0001 C CNN
+F 3 "" H 12700 1200 50  0001 C CNN
+	1    12700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 650  12700 1000
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 60A96CEF
+P 13000 1200
+F 0 "#FLG02" H 13000 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 13000 1373 50  0000 C CNN
+F 2 "" H 13000 1200 50  0001 C CNN
+F 3 "~" H 13000 1200 50  0001 C CNN
+	1    13000 1200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13000 1200 13000 1000
+Wire Wire Line
+	13000 1000 12700 1000
+Connection ~ 12700 1000
+Wire Wire Line
+	12700 1000 12700 1200
+Text HLabel 15000 4950 2    50   Input ~ 0
+USER_SW
+Wire Wire Line
+	15000 4950 14350 4950
+Text Label 14350 4950 0    50   ~ 0
+GPIO_SD_B2_02
+Text Label 12100 1300 3    50   ~ 0
+PERI_3V3
+Wire Wire Line
+	12100 1300 12100 650 
+Text Label 12100 650  3    50   ~ 0
+VDD_3V3
+Wire Wire Line
+	7500 4400 8000 4400
+Wire Wire Line
+	10150 1100 10500 1100
+$Comp
+L Device:R_Small R8
+U 1 1 60663178
+P 9500 900
+F 0 "R8" V 9450 800 50  0000 C CNN
+F 1 "10k" V 9500 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9500 900 50  0001 C CNN
+F 3 "~" H 9500 900 50  0001 C CNN
+	1    9500 900 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 800  9500 750 
+Connection ~ 9500 750 
+Wire Wire Line
+	9500 750  10050 750 
+Wire Wire Line
+	9500 1000 9500 1100
+Text Label 8000 4400 2    50   ~ 0
+POR_B
+Text Label 10500 1100 2    50   ~ 0
+POR_B
+$Comp
+L Device:D_Schottky_Small D1
+U 1 1 60690A3E
+P 10050 1100
+F 0 "D1" H 10050 1307 50  0000 C CNN
+F 1 "RB521S30T1G" H 10050 1216 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" V 10050 1100 50  0001 C CNN
+F 3 "~" V 10050 1100 50  0001 C CNN
+	1    10050 1100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8000 5600
+Text Label 10500 1850 2    50   ~ 0
+JTAG_MOD
+$Comp
+L Device:R_Small R13
+U 1 1 6071AD79
+P 10050 1850
+F 0 "R13" V 10000 1750 50  0000 C CNN
+F 1 "1k" V 10050 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1850 50  0001 C CNN
+F 3 "~" H 10050 1850 50  0001 C CNN
+	1    10050 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 1850 10500 1850
+Wire Wire Line
+	9450 1850 9450 2000
+$Comp
+L Device:R_Small R12
+U 1 1 60661E5D
+P 10050 1600
+F 0 "R12" V 10000 1500 50  0000 C CNN
+F 1 "50" V 10050 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1600 50  0001 C CNN
+F 3 "~" H 10050 1600 50  0001 C CNN
+	1    10050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 60661BEE
+P 10050 1500
+F 0 "R11" V 10000 1400 50  0000 C CNN
+F 1 "50" V 10050 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1500 50  0001 C CNN
+F 3 "~" H 10050 1500 50  0001 C CNN
+	1    10050 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 60661968
+P 10050 1400
+F 0 "R10" V 10000 1300 50  0000 C CNN
+F 1 "50" V 10050 1400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1400 50  0001 C CNN
+F 3 "~" H 10050 1400 50  0001 C CNN
+	1    10050 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10150 1600 10500 1600
+Wire Wire Line
+	10150 1500 10500 1500
+Wire Wire Line
+	10150 1400 10500 1400
+Wire Wire Line
+	10150 1300 10500 1300
+$Comp
+L Device:R_Small R9
+U 1 1 60644FF5
+P 10050 1300
+F 0 "R9" V 10000 1200 50  0000 C CNN
+F 1 "50" V 10050 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 10050 1300 50  0001 C CNN
+F 3 "~" H 10050 1300 50  0001 C CNN
+	1    10050 1300
+	0    1    1    0   
+$EndComp
+Text Label 10500 1500 2    50   ~ 0
+JTAG_TDO
+Text Label 10500 1600 2    50   ~ 0
+JTAG_TDI
+Text Label 10500 1400 2    50   ~ 0
+JTAG_TMS
+Text Label 10500 1300 2    50   ~ 0
+JTAG_TCK
+$Comp
+L Power_Protection:PESD3V3L5UV D2
+U 5 1 607BFE50
+P 11500 1250
+F 0 "D2" H 11550 1200 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 11750 1250 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 11500 1250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 11500 1250 50  0001 C CNN
+	5    11500 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD3V3L5UV D2
+U 4 1 607BE3AF
+P 11350 1250
+F 0 "D2" H 11400 1200 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 11650 1200 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 11350 1250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 11350 1250 50  0001 C CNN
+	4    11350 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD3V3L5UV D2
+U 3 1 607BBA31
+P 11200 1250
+F 0 "D2" H 11250 1200 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 11550 1100 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 11200 1250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 11200 1250 50  0001 C CNN
+	3    11200 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD3V3L5UV D2
+U 2 1 607B90B6
+P 11050 1250
+F 0 "D2" H 11100 1200 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 11450 1100 50  0001 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 11050 1250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 11050 1250 50  0001 C CNN
+	2    11050 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Power_Protection:PESD3V3L5UV D2
+U 1 1 60797B43
+P 10900 1250
+F 0 "D2" H 10950 1200 50  0000 L CNN
+F 1 "PESD5V0L5UV" V 11150 1400 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-666" H 10900 1250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PESDXL5UF_V_Y.pdf" H 10900 1250 50  0001 C CNN
+	1    10900 1250
+	0    1    1    0   
+$EndComp
+Connection ~ 9500 1100
+Wire Wire Line
+	9450 1850 9950 1850
+Connection ~ 9450 2000
+Text Label 10900 1550 3    50   ~ 0
+GND
+Wire Wire Line
+	10900 1550 10900 1350
+Wire Wire Line
+	9450 2000 10500 2000
+Wire Wire Line
+	10900 1150 10900 800 
+Wire Wire Line
+	9500 1100 9950 1100
+Wire Wire Line
+	9450 1300 9950 1300
+Wire Wire Line
+	9450 1400 9950 1400
+Wire Wire Line
+	9450 1500 9950 1500
+Wire Wire Line
+	9450 1600 9950 1600
+Text Label 9500 1100 0    50   ~ 0
+Conn_RST
+Text Label 9500 1300 0    50   ~ 0
+Conn_TCK
+Text Label 9500 1400 0    50   ~ 0
+Conn_TMS
+Text Label 9500 1500 0    50   ~ 0
+Conn_TDO
+Text Label 9500 1600 0    50   ~ 0
+Conn_TDI
+Text Label 10900 800  3    50   ~ 0
+Conn_RST
+Text Label 11050 800  3    50   ~ 0
+Conn_TDI
+Wire Wire Line
+	11050 800  11050 1150
+Text Label 11500 800  3    50   ~ 0
+Conn_TDO
+Wire Wire Line
+	11200 800  11200 1150
+Wire Wire Line
+	11350 800  11350 1150
+Wire Wire Line
+	11500 800  11500 1150
+Text Label 11350 800  3    50   ~ 0
+Conn_TCK
+Text Label 11200 800  3    50   ~ 0
+Conn_TMS
+Wire Notes Line
+	10650 700  10650 1750
+Wire Notes Line
+	10650 1750 11650 1750
+Wire Notes Line
+	11650 1750 11650 700 
+Wire Notes Line
+	11650 700  10650 700 
+Text Notes 10650 700  0    50   ~ 0
+ESD Protection
+Text Label 14350 5350 0    50   ~ 0
+GPIO_AD_24
+Wire Wire Line
+	14350 5350 15000 5350
+Text Label 14350 5250 0    50   ~ 0
+GPIO_AD_25
+Wire Wire Line
+	14350 5250 15000 5250
+Text HLabel 15000 5250 2    50   Input ~ 0
+UART_RX
+Text HLabel 15000 5350 2    50   Output ~ 0
+UART_TX
 $EndSCHEMATC
