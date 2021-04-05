@@ -1556,4 +1556,20 @@ Text HLabel 15000 5250 2    50   Input ~ 0
 UART_RX
 Text HLabel 15000 5350 2    50   Output ~ 0
 UART_TX
+Text Label 10800 2500 0    50   ~ 0
+TRD1+
+Text Label 10800 2700 0    50   ~ 0
+TRD1-
+Text Label 10800 2900 0    50   ~ 0
+TRD2+
+Text Label 10800 3100 0    50   ~ 0
+TRD2-
+Text Label 10800 3300 0    50   ~ 0
+TRD3+
+Text Label 10800 3500 0    50   ~ 0
+TRD3-
+Text Label 10800 3700 0    50   ~ 0
+TRD4+
+Text Label 10800 3900 0    50   ~ 0
+TRD4-
 $EndSCHEMATC

@@ -1023,13 +1023,13 @@ F 3 "" H 8750 9200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8750 9200 8750 9050
-Text Label 8900 8500 3    50   ~ 0
+Text Label 9200 8500 3    50   ~ 0
 PWM_TRIG
-Text Label 8750 8500 3    50   ~ 0
+Text Label 9050 8500 3    50   ~ 0
 USER_GPIO
 Text Label 8200 7150 0    50   ~ 0
 USER_SW_BTN
-Text Label 9200 8500 3    50   ~ 0
+Text Label 9350 8500 3    50   ~ 0
 USER_SW_BTN
 Wire Wire Line
 	4000 4850 4400 4850
@@ -1114,4 +1114,8 @@ Wire Bus Line
 	7000 4950 7000 9950
 Wire Bus Line
 	4500 3750 4500 4950
+Text Label 8750 8500 3    50   ~ 0
+UART_RX
+Text Label 8900 8500 3    50   ~ 0
+UART_TX
 $EndSCHEMATC

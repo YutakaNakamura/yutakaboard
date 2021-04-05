@@ -1094,6 +1094,10 @@ Wire Wire Line
 	7100 9950 7500 9950
 Wire Wire Line
 	7100 10050 7500 10050
+Text Label 8750 8500 3    50   ~ 0
+UART_RX
+Text Label 8900 8500 3    50   ~ 0
+UART_TX
 Wire Bus Line
 	1500 1800 1500 2100
 Wire Bus Line
@@ -1114,8 +1118,4 @@ Wire Bus Line
 	7000 4950 7000 9950
 Wire Bus Line
 	4500 3750 4500 4950
-Text Label 8750 8500 3    50   ~ 0
-UART_RX
-Text Label 8900 8500 3    50   ~ 0
-UART_TX
 $EndSCHEMATC
