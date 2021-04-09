@@ -1,0 +1,228 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 15000 1500 2    50   Input ~ 0
+VSYS_5V
+Wire Wire Line
+	15000 1500 14500 1500
+Text Label 14500 1500 2    50   ~ 0
+VSYS_5V
+Wire Wire Line
+	14500 1600 15000 1600
+Wire Wire Line
+	14500 1700 15000 1700
+Wire Wire Line
+	14500 1800 15000 1800
+Text Label 14500 1600 2    50   ~ 0
+GND
+Text Label 14500 1700 2    50   ~ 0
+VDD_3V3
+Text Label 14500 1800 2    50   ~ 0
+VDD_1V8
+Text HLabel 15000 1600 2    50   Input ~ 0
+GND
+Text HLabel 15000 1700 2    50   Output ~ 0
+VDD_3V3
+Text HLabel 15000 1800 2    50   Output ~ 0
+VDD_1V8
+Text HLabel 15000 2100 2    50   Output ~ 0
+PWM_UH
+Text HLabel 15000 2200 2    50   Output ~ 0
+PWM_UL
+Text HLabel 15000 2300 2    50   Output ~ 0
+PWM_VH
+Text HLabel 15000 2400 2    50   Output ~ 0
+PWM_VL
+Text HLabel 15000 2500 2    50   Output ~ 0
+PWM_WH
+Text HLabel 15000 2600 2    50   Output ~ 0
+PWM_WL
+Text HLabel 15000 3200 2    50   Output ~ 0
+nEnable
+Text HLabel 15000 3300 2    50   Input ~ 0
+OT
+Wire Wire Line
+	15000 2100 14500 2100
+Wire Wire Line
+	15000 2300 14500 2300
+Text Label 14500 2100 0    50   ~ 0
+GPIO_AD_00
+Text Label 14500 2300 0    50   ~ 0
+GPIO_AD_02
+Wire Wire Line
+	14500 2500 15000 2500
+Text Label 14500 2500 0    50   ~ 0
+GPIO_AD_04
+Wire Wire Line
+	15000 2200 14500 2200
+Text Label 14500 2200 0    50   ~ 0
+GPIO_AD_01
+Wire Wire Line
+	15000 2400 14500 2400
+Text Label 14500 2400 0    50   ~ 0
+GPIO_AD_03
+Wire Wire Line
+	15000 2600 14500 2600
+Text Label 14500 2600 0    50   ~ 0
+GPIO_AD_05
+Wire Wire Line
+	15000 3200 14500 3200
+Wire Wire Line
+	15000 3300 14500 3300
+Text HLabel 15000 3050 2    50   Input ~ 0
+ADC_VBUS
+Text HLabel 15000 2750 2    50   Input ~ 0
+ADC_U
+Text HLabel 15000 2850 2    50   Input ~ 0
+ADC_V
+Text HLabel 15000 2950 2    50   Input ~ 0
+ADC_W
+Wire Wire Line
+	15000 3050 14500 3050
+Wire Wire Line
+	15000 2750 14500 2750
+Wire Wire Line
+	15000 2850 14500 2850
+Wire Wire Line
+	15000 2950 14500 2950
+Text Label 14500 2750 0    50   ~ 0
+GPIO_AD_06
+Text Label 14500 2850 0    50   ~ 0
+GPIO_AD_08
+Text Label 14500 2950 0    50   ~ 0
+GPIO_AD_10
+Text Label 14500 3050 0    50   ~ 0
+GPIO_AD_12
+Text HLabel 15000 3500 2    50   Output ~ 0
+PWM_TRIG
+Wire Wire Line
+	15000 3500 14500 3500
+Text HLabel 15000 3600 2    50   Input ~ 0
+ADC_USER_1
+Text HLabel 15000 3700 2    50   Input ~ 0
+ADC_USER_2
+Wire Wire Line
+	15000 3600 14500 3600
+Wire Wire Line
+	15000 3700 14500 3700
+Text Label 14500 3500 0    50   ~ 0
+GPIO_AD_33
+Text Label 14500 3600 0    50   ~ 0
+GPIO_AD_12
+Text Label 14500 3700 0    50   ~ 0
+GPIO_AD_14
+Text Label 14500 3200 0    50   ~ 0
+GPIO_AD_20
+Text Label 14500 3300 0    50   ~ 0
+GPIO_AD_21
+Text HLabel 15000 3850 2    50   Output ~ 0
+USER_GPIO
+Wire Wire Line
+	15000 3850 14500 3850
+Text Label 14500 3850 0    50   ~ 0
+GPIO_AD_23
+$Comp
+L iMXRT1176uCOM:iMXRT1176uCOM U?
+U 1 1 60CF938D
+P 4500 3600
+F 0 "U?" H 4500 6415 50  0000 C CNN
+F 1 "iMXRT1176uCOM" H 4500 6324 50  0000 C CNN
+F 2 "" H 4500 3100 50  0001 C CNN
+F 3 "" H 4500 3100 50  0001 C CNN
+	1    4500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L iMXRT1176uCOM:iMXRT1176uCOM U?
+U 2 1 60D04DA0
+P 10600 8250
+F 0 "U?" H 10600 11065 50  0000 C CNN
+F 1 "iMXRT1176uCOM" H 10600 10974 50  0000 C CNN
+F 2 "" H 10600 7750 50  0001 C CNN
+F 3 "" H 10600 7750 50  0001 C CNN
+	2    10600 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L iMXRT1176uCOM:iMXRT1176uCOM U?
+U 3 1 60D117AE
+P 4500 7750
+F 0 "U?" H 4500 9065 50  0000 C CNN
+F 1 "iMXRT1176uCOM" H 4500 8974 50  0000 C CNN
+F 2 "" H 4500 7250 50  0001 C CNN
+F 3 "" H 4500 7250 50  0001 C CNN
+	3    4500 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L iMXRT1176uCOM:iMXRT1176uCOM U?
+U 4 1 60D1A0F3
+P 13100 9250
+F 0 "U?" H 13100 10565 50  0000 C CNN
+F 1 "iMXRT1176uCOM" H 13100 10474 50  0000 C CNN
+F 2 "" H 13100 8750 50  0001 C CNN
+F 3 "" H 13100 8750 50  0001 C CNN
+	4    13100 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1450 3500 1350
+Connection ~ 3500 1150
+Connection ~ 3500 1250
+Wire Wire Line
+	3500 1250 3500 1150
+Connection ~ 3500 1350
+Wire Wire Line
+	3500 1350 3500 1250
+Wire Wire Line
+	3500 1850 3500 1750
+Connection ~ 3500 1650
+Wire Wire Line
+	3500 1650 3500 1550
+Connection ~ 3500 1750
+Wire Wire Line
+	3500 1750 3500 1650
+Connection ~ 3500 1550
+Wire Wire Line
+	3000 1150 3500 1150
+Wire Wire Line
+	3000 1550 3500 1550
+Wire Wire Line
+	5500 1450 5500 1350
+Connection ~ 5500 1250
+Wire Wire Line
+	5500 1250 5500 1150
+Connection ~ 5500 1350
+Wire Wire Line
+	5500 1350 5500 1250
+Wire Wire Line
+	6000 1150 5500 1150
+Connection ~ 5500 1150
+Text Label 6000 1150 2    50   ~ 0
+VSYS_5V
+Text Label 3000 1150 0    50   ~ 0
+VSYS_5V
+Wire Wire Line
+	5500 1850 5500 1750
+Connection ~ 5500 1650
+Wire Wire Line
+	5500 1650 5500 1550
+Connection ~ 5500 1750
+Wire Wire Line
+	5500 1750 5500 1650
+Wire Wire Line
+	6000 1550 5500 1550
+Connection ~ 5500 1550
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-19090626081371677
+19092243969020365
 BOOSTXL_3PhGaNInv
 BOOSTXL_3PhGaNInv
 
@@ -83061,6 +83061,13 @@ varistor SIOV
 0
 2
 2
+footprint
+digitalservo_logo
+
+
+0
+0
+0
 iMXRT1176uCOM
 iMXRT1176uCOM
 
